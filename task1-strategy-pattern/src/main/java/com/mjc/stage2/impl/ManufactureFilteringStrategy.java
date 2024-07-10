@@ -13,6 +13,4 @@ public class ManufactureFilteringStrategy implements FilteringStrategy {
     public boolean filter(Product product) {
         return product.getManufacture().toLowerCase().equals(manufacture.toLowerCase());
     }
-
-    // Write your code here!
 }
