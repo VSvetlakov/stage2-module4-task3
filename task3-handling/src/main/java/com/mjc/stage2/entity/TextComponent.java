@@ -21,7 +21,7 @@ public class TextComponent extends AbstractTextComponent{
             result.append(getComponentType().getDelimiter());
         }
 
-        return result.toString();
+        return result.toString().trim();
     }
 
     @Override
